@@ -17,3 +17,6 @@ class Bank:
 			res += client.money
 
 		return res
+
+	def get_client(self):
+		return *list(fillter(lambda x: x.id == client.id))
