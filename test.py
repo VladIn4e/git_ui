@@ -1,1 +1,3 @@
-def my_print():
+def my_print(text):
+	print(text)
+
